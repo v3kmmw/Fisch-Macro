@@ -1,6 +1,6 @@
-# Fisch-Macro
+# Fischer
 
-Fischer is a GUI for **[Fisch](https://www.roblox.com/games/16732694052/Fisch)**
+Fischer is a GUI for **[Fisch](https://www.roblox.com/games/16732694052/Fisch)**,
 It automatically loads you into the smallest and fastest server, with a built in macro allowing you to macro more efficiently
 
 ## Credits

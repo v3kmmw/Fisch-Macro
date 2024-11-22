@@ -25,4 +25,5 @@ For configuration help, go to [this video by Asphalt Cake](https://www.youtube.c
 For support, you can join [the discord.](https://discord.gg/nrqdP5qZvt)
 
 You are free to scan this on virustotal, however there will be false flags as fischer opens a seperate exe.
+You can view the source code [here](https://github.com/v3kmmw/Fischer/blob/main/src/gui.py).
 

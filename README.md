@@ -9,9 +9,18 @@ It automatically loads you into the smallest and fastest server, with a built in
   Thanks to [Asphalt Cake](https://www.youtube.com/@AsphaltCake) for the base macro
 
 ## Installation
+1. Go to the [releases page](https://github.com/v3kmmw/Fischer/releases).
+2. Download the ZIP file.
+3. Extract the ZIP file in a seperate folder
+4. Run fischer.exe!
 
-Installation should be easy, as this is an exe already.
+Currently Fischer only works on windows
 
 ## Configuration
 
 For configuration help, go to [this video by Asphalt Cake](https://www.youtube.com/watch?v=S0S8azmXOg8&ab_channel=AsphaltCake).
+
+## Support
+
+For support, you can join [the discord.](https://discord.gg/nrqdP5qZvt)
+

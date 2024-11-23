@@ -1,7 +1,9 @@
 # Fischer
 
 Fischer is a GUI for **[Fisch](https://www.roblox.com/games/16732694052/Fisch)**,
-It automatically loads you into the smallest and fastest server, with a built in macro allowing you to macro more efficiently
+It automatically loads you into the smallest and fastest server, with a built in macro allowing you to macro more efficiently.
+
+![alt text](https://github-production-user-asset-6210df.s3.amazonaws.com/175903281/389142118-d8530639-254a-4349-8a2d-a10c10d7076a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241123T001226Z&X-Amz-Expires=300&X-Amz-Signature=f3663d8162bd84fce744313853033f2788a46ca5157d1821afc6b8da4c9e3e99&X-Amz-SignedHeaders=host)
 
 ## Credits
 
@@ -9,11 +11,21 @@ It automatically loads you into the smallest and fastest server, with a built in
   Thanks to [Asphalt Cake](https://www.youtube.com/@AsphaltCake) for the base macro
 
 ## Installation
-1. Download [AutoHotKey](https://www.autohotkey.com/download/ahk-v2.exe)
+### Method One
+1. Download [AutoHotKey](https://www.autohotkey.com/download/ahk-v2.exe).
 2. Go to the [releases page](https://github.com/v3kmmw/Fischer/releases).
 3. Download the ZIP file.
-4. Extract the ZIP file in a seperate folder
+4. Extract the ZIP file in a seperate folder.
 5. Run fischer.exe!
+### Method Two
+1. Download [AutoHotKey](https://www.autohotkey.com/download/ahk-v2.exe).
+2. Go to the [releases page](https://github.com/v3kmmw/Fischer/releases).
+3. Download the Source Code.
+4. Extract the Source Code in a new folder.
+5. Open CMD in the directory!
+
+6. Run this command:
+```python build/gui.py```
 
 Currently Fischer only works on windows
 

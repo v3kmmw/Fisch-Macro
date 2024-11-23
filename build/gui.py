@@ -76,12 +76,10 @@ EndMinigameDelay=1500
 '''
 
 if not os.path.exists("MinigameSettings.txt"):
-    with open("MinigameSettings.txt", "w") as f:
-        f.write(DEFAULT_MINIGAME_SETTINGS)
+    urllib.request.urlretrieve("https://raw.githubusercontent.com/v3kmmw/Fischer/refs/heads/main/defaults/MinigameSettings.txt", "MinigameSettings.txt")
 
 if not os.path.exists("GeneralSettings.txt"):
-    with open("GeneralSettings.txt", "w") as f:
-        f.write(DEFAULT_GENERAL_SETTINGS)
+    urllib.request.urlretrieve("https://raw.githubusercontent.com/v3kmmw/Fischer/refs/heads/main/defaults/GeneralSettings.txt", "GeneralSettings.txt")
 
 folder_path = "macro"
 
@@ -261,10 +259,18 @@ button_image_6 = PhotoImage(
     file=relative_to_assets("button_6.png"))
 def show_confirm_dialog():
     # Create a simple tkinter window for the prompt
-    root = tk.Tk()
-    root.withdraw()  # Hide the root window, only show the dialog
-    result = messagebox.askyesno("Join Server", "Do you have 'Roblox URL Launcher' installed? if not click 'No'.")
-    root.destroy()  # Destroy the root window after the prompt
+    with open("config.json", "r") as f:
+        config = json.load(f)
+        if config["Extension"] == True:
+            result = True
+        else:
+            root = tk.Tk()
+            root.withdraw()  # Hide the root window, only show the dialog
+            result = messagebox.askyesno("Join Server", "Do you have 'Roblox URL Launcher' installed? if not click 'No'.")
+            root.destroy()  # Destroy the root window after the prompt
+    with open("config.json", "w") as f:
+        config["Extension"] = result
+        json.dump(config, f)
     return result
 import winreg
 
@@ -290,7 +296,11 @@ async def join_server():
     # Perform the asynchronous task of fetching servers
     async with httpx.AsyncClient() as client:
         response = await client.get("https://games.roblox.com/v1/games/16732694052/servers/Public?sortOrder=Asc&excludeFullGames=false&limit=100")
-        servers = sorted(response.json()["data"], key=lambda x: x["ping"])
+        print(response.headers.get("content-type"))
+        print("Raw response data:")
+        response_data = response.json()
+        servers = response_data['data']        
+        servers = sorted(servers, key=lambda x: x.get('ping', float('inf')))
         lowest_ping_server = servers[0]
         print(f"Lowest ping server: {lowest_ping_server['id']}, ping: {lowest_ping_server['ping']}")
         

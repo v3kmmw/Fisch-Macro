@@ -23,7 +23,6 @@ It automatically loads you into the smallest and fastest server, with a built in
 3. Download the Source Code.
 4. Extract the Source Code in a new folder.
 5. Open CMD in the directory!
-
 6. Run this command:
 ```python build/gui.py```
 

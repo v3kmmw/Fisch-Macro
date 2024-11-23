@@ -5,6 +5,7 @@ It automatically loads you into the smallest and fastest server, with a built in
 
 ![alt text](https://github-production-user-asset-6210df.s3.amazonaws.com/175903281/389142118-d8530639-254a-4349-8a2d-a10c10d7076a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241123T001226Z&X-Amz-Expires=300&X-Amz-Signature=f3663d8162bd84fce744313853033f2788a46ca5157d1821afc6b8da4c9e3e99&X-Amz-SignedHeaders=host)
 
+Image updates per release
 ## Credits
 
 - **[Macro]([https://github.com/dv8-studio/RobloxURLLauncher])**  
@@ -23,8 +24,8 @@ It automatically loads you into the smallest and fastest server, with a built in
 3. Download the Source Code.
 4. Extract the Source Code in a new folder.
 5. Open CMD in the directory!
-
-6. Run this command:
+6. Make Sure you have python installed. Check the version with ``python -v``. You can install it from the [Microsoft Store.](https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-US&gl=US)
+8. Run this command:
 ```python build/gui.py```
 
 Currently Fischer only works on windows

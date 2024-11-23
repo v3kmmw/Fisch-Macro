@@ -9,11 +9,20 @@ It automatically loads you into the smallest and fastest server, with a built in
   Thanks to [Asphalt Cake](https://www.youtube.com/@AsphaltCake) for the base macro
 
 ## Installation
-1. Download [AutoHotKey](https://www.autohotkey.com/download/ahk-v2.exe)
+### Method One
+1. Download [AutoHotKey](https://www.autohotkey.com/download/ahk-v2.exe).
 2. Go to the [releases page](https://github.com/v3kmmw/Fischer/releases).
 3. Download the ZIP file.
-4. Extract the ZIP file in a seperate folder
+4. Extract the ZIP file in a seperate folder.
 5. Run fischer.exe!
+### Method Two
+1. Download [AutoHotKey](https://www.autohotkey.com/download/ahk-v2.exe).
+2. Go to the [releases page](https://github.com/v3kmmw/Fischer/releases).
+3. Download the Source Code.
+4. Extract the Source Code in a new folder.
+5. Open CMD in the directory
+6. Run this command:
+```python build/gui.py```
 
 Currently Fischer only works on windows
 

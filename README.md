@@ -1,8 +1,9 @@
 # Fischer
 
 Fischer is a GUI for **[Fisch](https://www.roblox.com/games/16732694052/Fisch)**,
-It automatically loads you into the smallest and fastest server, with a built in macro allowing you to macro more efficiently
+It automatically loads you into the smallest and fastest server, with a built in macro allowing you to macro more efficiently.
 
+[image](https://github.com/user-attachments/assets/d8530639-254a-4349-8a2d-a10c10d7076a)
 ## Credits
 
 - **[Macro]([https://github.com/dv8-studio/RobloxURLLauncher])**  
@@ -20,7 +21,8 @@ It automatically loads you into the smallest and fastest server, with a built in
 2. Go to the [releases page](https://github.com/v3kmmw/Fischer/releases).
 3. Download the Source Code.
 4. Extract the Source Code in a new folder.
-5. Open CMD in the directory
+5. Open CMD in the directory!
+
 6. Run this command:
 ```python build/gui.py```
 

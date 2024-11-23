@@ -3,7 +3,8 @@
 Fischer is a GUI for **[Fisch](https://www.roblox.com/games/16732694052/Fisch)**,
 It automatically loads you into the smallest and fastest server, with a built in macro allowing you to macro more efficiently.
 
-[image](https://github.com/user-attachments/assets/d8530639-254a-4349-8a2d-a10c10d7076a)
+![alt text](https://github-production-user-asset-6210df.s3.amazonaws.com/175903281/389142118-d8530639-254a-4349-8a2d-a10c10d7076a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241123T001226Z&X-Amz-Expires=300&X-Amz-Signature=f3663d8162bd84fce744313853033f2788a46ca5157d1821afc6b8da4c9e3e99&X-Amz-SignedHeaders=host)
+
 ## Credits
 
 - **[Macro]([https://github.com/dv8-studio/RobloxURLLauncher])**  

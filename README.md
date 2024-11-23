@@ -23,7 +23,8 @@ It automatically loads you into the smallest and fastest server, with a built in
 3. Download the Source Code.
 4. Extract the Source Code in a new folder.
 5. Open CMD in the directory!
-6. Run this command:
+6. Make Sure you have python installed. Check the version with ``python -v``. You can install it from the [Microsoft Store.](https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-US&gl=US)
+8. Run this command:
 ```python build/gui.py```
 
 Currently Fischer only works on windows

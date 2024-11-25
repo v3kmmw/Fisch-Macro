@@ -3,7 +3,7 @@ NavigationKey=\
 AutoLowerGraphics=1
 AutoZoomIn=1
 AutoLookDown=1
-AutoCameraMode=1
+AutoCameraMode=0
 AutoBlur=1
 
 CameraWhiteTolerance=0

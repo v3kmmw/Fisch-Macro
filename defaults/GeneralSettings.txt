@@ -1,4 +1,3 @@
-
 NavigationKey=\
 AutoLowerGraphics=1
 AutoZoomIn=1
